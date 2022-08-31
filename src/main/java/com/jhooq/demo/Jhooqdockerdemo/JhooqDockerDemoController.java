@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class JhooqDockerDemoController {
 
-    @GetMapping("/night")
+    @GetMapping("/night1")
     public String hello() {
-        return "Deploying The Server Using Kubernetes using the Jenkins Contineous Integration Tool";
+        return "AAABBBCCCC";
     }
 }
