@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image:  param036/pipelinesteps:jenkins
+          image:  param036/gradle:paramtag
           ports:
             - containerPort: 8080
           env:
